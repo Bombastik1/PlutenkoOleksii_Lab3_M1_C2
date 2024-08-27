@@ -4,7 +4,7 @@ import string
 def contains_numbers(l):
     return any(char.isdigit() for char in l)
 
-min_x = 0
+min_x = 1
 max_x = 5
 
 length = random.randint(min_x, max_x)
